@@ -1,0 +1,245 @@
+
+
+### 1. **Find the Product of Two Numbers**
+**Flowchart**:  
+1. Start  
+2. Input `a` and `b`  
+3. Compute `product = a * b`  
+4. Output `product`  
+5. Stop  
+
+**Pseudocode**:
+```
+Start
+Input a, b
+product ← a * b
+Output product
+Stop
+```
+
+**C++ Code**:
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b;
+    cout << "Enter two numbers: ";
+    cin >> a >> b;
+    int product = a * b;
+    cout << "Product: " << product << endl;
+    return 0;
+}
+```
+
+---
+
+### 2. **Find `a` Divided by `b`**
+**Flowchart**:  
+1. Start  
+2. Input `a` and `b`  
+3. If `b == 0`, output "Division by zero error"  
+4. Else, compute `result = a / b`  
+5. Output `result`  
+6. Stop  
+
+**Pseudocode**:
+```
+Start
+Input a, b
+If b == 0
+    Output "Division by zero error"
+Else
+    result ← a / b
+    Output result
+Stop
+```
+
+**C++ Code**:
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    float a, b;
+    cout << "Enter two numbers (a and b): ";
+    cin >> a >> b;
+    if (b == 0) {
+        cout << "Division by zero error." << endl;
+    } else {
+        float result = a / b;
+        cout << "Result: " << result << endl;
+    }
+    return 0;
+}
+```
+
+---
+
+### 3. **Find the Square of a Number**
+**Flowchart**:  
+1. Start  
+2. Input `n`  
+3. Compute `square = n * n`  
+4. Output `square`  
+5. Stop  
+
+**Pseudocode**:
+```
+Start
+Input n
+square ← n * n
+Output square
+Stop
+```
+
+**C++ Code**:
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cout << "Enter a number: ";
+    cin >> n;
+    int square = n * n;
+    cout << "Square: " << square << endl;
+    return 0;
+}
+```
+
+---
+
+### 4. **Compare Two Numbers**
+**Flowchart**:  
+1. Start  
+2. Input `a` and `b`  
+3. If `a > b`, output "`a` is greater"  
+4. Else if `a < b`, output "`b` is greater"  
+5. Else, output "`a` and `b` are equal"  
+6. Stop  
+
+**Pseudocode**:
+```
+Start
+Input a, b
+If a > b
+    Output "a is greater"
+Else If a < b
+    Output "b is greater"
+Else
+    Output "a and b are equal"
+Stop
+```
+
+**C++ Code**:
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b;
+    cout << "Enter two numbers: ";
+    cin >> a >> b;
+    if (a > b) {
+        cout << a << " is greater." << endl;
+    } else if (a < b) {
+        cout << b << " is greater." << endl;
+    } else {
+        cout << "Both are equal." << endl;
+    }
+    return 0;
+}
+```
+
+---
+
+### 5. **Check if a Number is Positive, Negative, or Zero**
+**Flowchart**:  
+1. Start  
+2. Input `n`  
+3. If `n > 0`, output "Positive"  
+4. Else if `n < 0`, output "Negative"  
+5. Else, output "Zero"  
+6. Stop  
+
+**Pseudocode**:
+```
+Start
+Input n
+If n > 0
+    Output "Positive"
+Else If n < 0
+    Output "Negative"
+Else
+    Output "Zero"
+Stop
+```
+
+**C++ Code**:
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cout << "Enter a number: ";
+    cin >> n;
+    if (n > 0) {
+        cout << "Positive" << endl;
+    } else if (n < 0) {
+        cout << "Negative" << endl;
+    } else {
+        cout << "Zero" << endl;
+    }
+    return 0;
+}
+```
+
+---
+
+### 6. **Find Factorial of a Number**
+**Flowchart**:  
+1. Start  
+2. Input `n`  
+3. If `n < 0`, output "Invalid input"  
+4. Else, initialize `factorial = 1`  
+5. For `i` from 1 to `n`, multiply `factorial = factorial * i`  
+6. Output `factorial`  
+7. Stop  
+
+**Pseudocode**:
+```
+Start
+Input n
+If n < 0
+    Output "Invalid input"
+Else
+    factorial ← 1
+    For i ← 1 to n
+        factorial ← factorial * i
+    Output factorial
+Stop
+```
+
+**C++ Code**:
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cout << "Enter a number: ";
+    cin >> n;
+    if (n < 0) {
+        cout << "Invalid input. Factorial of a negative number does not exist." << endl;
+    } else {
+        long long factorial = 1;
+        for (int i = 1; i <= n; ++i) {
+            factorial *= i;
+        }
+        cout << "Factorial: " << factorial << endl;
+    }
+    return 0;
+}
+```
