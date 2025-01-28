@@ -1,0 +1,79 @@
+Time Complexity:
+
+1.	O(1) - Constant Time
+o	Independent of input size; the algorithm takes the same amount of time.
+o	Example: Accessing an array element by index.
+
+2.	O(log n) - Logarithmic Time
+o	Cuts the problem size in half with each iteration.
+o	Example: Binary Search.
+
+3.	O(n) - Linear Time
+o	Time grows directly proportional to the input size.
+o	Example: Traversing an array.
+
+4.	O(n log n) - Linearithmic Time
+o	Performs linear operations for each split of the input.
+o	Example: Merge Sort, Heap Sort.
+
+5.	O(n²) - Quadratic Time
+o	Time grows as the square of the input size.
+o	Example: Bubble Sort, Selection Sort, Insertion Sort.
+
+6.	O(n³) - Cubic Time
+o	Time grows as the cube of the input size.
+o	Example: Matrix Multiplication (naive approach).
+
+7.	O(2^n) - Exponential Time
+o	Time doubles with each additional input.
+o	Example: Recursive solutions to the Fibonacci sequence, Subset generation.
+
+8.	O(n!) - Factorial Time
+o	Grows faster than exponential; used in problems involving permutations.
+o	Example: Solving the Travelling Salesman Problem using brute force.
+
+________________________________________
+Space Complexity:
+
+1.	O(1) - Constant Space
+o	Uses a fixed amount of memory, regardless of input size.
+o	Example: Swapping two numbers.
+
+2.	O(log n) - Logarithmic Space
+o	Recursive algorithms like Binary Search require this for stack space.
+o	Example: Divide-and-conquer recursion.
+
+3.	O(n) - Linear Space
+o	Memory grows directly proportional to input size.
+o	Example: Storing elements in an array.
+
+4.	O(n log n) - Linearithmic Space
+o	Memory required for sorting algorithms like Merge Sort.
+o	Example: Temporary storage in divide-and-conquer algorithms.
+
+5.	O(n²) - Quadratic Space
+o	Often needed for dynamic programming with 2D tables.
+o	Example: Longest Common Subsequence.
+
+6.	O(2^n) - Exponential Space
+o	Memory grows exponentially with input.
+o	Example: Recursive Fibonacci with no memoization.
+
+7.	O(n!) - Factorial Space
+o	Extremely rare; used in combinatorial problems.
+o	Example: Generating all permutations of a string or set.
+________________________________________
+
+Summary Table
+
+Complexity	    Time (Best to Worst)	  Space (Best to Worst)
+Constant	              O(1)	                  O(1)
+Logarithmic	          O(log n)	            	O(log n)
+Linear	                O(n)	                 	O(n)
+Linearithmic	       O(n log n)            	O(n log n)
+Quadratic	             O(n²)	                	O(n²)
+Cubic	                  O(n³)                  	O(n³)
+Exponential	           O(2^n)                	O(2^n)
+Factorial	              O(n!)                  	O(n!)
+________________________________________
+
