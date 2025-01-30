@@ -9,16 +9,18 @@
       "stopAtEntry": false,
       "externalConsole": true,
       "cwd": "g:/dsa_c++",
-      "program": "g:/dsa_c++/build/Debug/outDebug",
+      "program": "${workspaceFolder}/build/Debug/outDebug",
       "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
+      "miDebuggerPath": "D:/winlibs-gcc-14.2.0-mingw-12.0.0-r2/mingw64/bin/gdb.exe",
       "setupCommands": [
         {
           "description": "Enable pretty-printing for gdb",
           "text": "-enable-pretty-printing",
           "ignoreFailures": true
         }
-      ]
+      ],
+      "visualizerFile": "${workspaceFolder}/visualizer/gdb_visualizer.gdb",
+      "postDebugTask": "pause"  // Add this line if needed
     }
   ]
 }

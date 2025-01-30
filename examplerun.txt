@@ -1,0 +1,4 @@
+Example run : g++ -g -o G:/dsa_c++/build/Debug/outDebug Product_of_Array_Except_self.cpp
+
+cd G:/dsa_c++/build/Debug
+outDebug.exe
