@@ -64,5 +64,6 @@
     "vector": "cpp"
   },
   "C_Cpp.default.compilerPath": "D:\\winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r2\\mingw64\\bin\\gcc.exe",
-  "CodeGPT.apiKey": "CodeGPT Plus Beta"
+  "CodeGPT.apiKey": "CodeGPT Plus Beta",
+  "C_Cpp.errorSquiggles": "disabled"
 }
