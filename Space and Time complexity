@@ -67,14 +67,19 @@ ________________________________________
 Summary Table
 
 Complexity	    Time (Best to Worst)	  Space (Best to Worst)
+
 Constant	              O(1)	                  O(1)
-Logarithmic	          O(log n)	            	O(log n)
-Linear	                O(n)	                 	O(n)
-Linearithmic	       O(n log n)            	O(n log n)
-Quadratic	             O(n²)	                	O(n²)
-Cubic	                  O(n³)                  	O(n³)
-Exponential	           O(2^n)                	O(2^n)
-Factorial	              O(n!)                  	O(n!)
+Logarithmic	            O(log n)	              O(log n)
+Linear	                O(n)	                  O(n)
+Linearithmic	          O(n log n)	            O(n log n)
+Quadratic	              O(n²)	                  O(n²)
+Cubic	                  O(n³)	                	O(n³)
+Exponential	            O(2ⁿ)	                	O(2ⁿ)
+Factorial	              O(n!)		                O(n!)
+Mixed Growth	     O((n + m) * log(n + m))	    O(n + m)
+Independent Growth      O(n + m)		            O(n + m)
+Logarithmic Ratio	      O(log m / log n)	      Typically O(1)
+
 ________________________________________
 
 
